@@ -3,7 +3,7 @@ tittle: Reset Writeup
 date: 2025-02-11 00:00:00 +0000
 categories: [Active Directory]
 tags: [AD]
-media_subpath: /assets/images/
+media_subpath: /assets/images/reset
 ---
 # بسم الله الرحمن الرحيم
 
