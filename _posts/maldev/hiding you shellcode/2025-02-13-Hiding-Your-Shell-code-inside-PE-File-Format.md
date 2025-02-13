@@ -1,6 +1,6 @@
 ---
 tittle: Hiding Your Shell code inside PE File Format
-date: 2025-02-13 00:00:00+0200
+date: 2025-02-13 00:00:00 +0200
 categories:
   - maldev
 tags:
@@ -61,7 +61,7 @@ now let's check the size again
 ![Image](https://github.com/user-attachments/assets/eab23403-32bb-4521-9182-46fdced896e7)
 
 ---
-### Shell code in Text section
+### Shell code in .text section
 The **.text** section in a PE file contains the **executable code** (i.e., the program's instructions). It is a **read-only** section and holds the machine code that gets executed by the CPU during runtime.
 
 we need to allocate the memory for the generated shellcode payload, will be using the following code, we will break that code right now just wait.  
