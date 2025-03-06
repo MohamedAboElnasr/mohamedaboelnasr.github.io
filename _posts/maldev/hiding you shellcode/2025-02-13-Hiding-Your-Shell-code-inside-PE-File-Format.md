@@ -1,5 +1,5 @@
 ---
-tittle: Hiding Your Shell code inside PE File Format
+title: Hiding Your Shell code inside PE File Format
 date: 2025-02-13 00:00:00 +0200
 categories:
   - maldev
@@ -54,8 +54,7 @@ i found a way to overcome this i switched the byte array from `string literal` i
 ```bash
 cat shell|sed 's/"//g'|sed 's/\\x//g' |sed 's/\(..\)/0x\1,/g'
 ```
-![Image](https://github.com/user-attachments/assets/ec943687-7a42-48ec-84f4-b4bc
-de929d8c)  
+![Image](https://github.com/user-attachments/assets/ec943687-7a42-48ec-84f4-b4bcde929d8c) 
 now let's check the size again
 
 ![Image](https://github.com/user-attachments/assets/eab23403-32bb-4521-9182-46fdced896e7)

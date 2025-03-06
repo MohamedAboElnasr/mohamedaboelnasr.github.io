@@ -1,5 +1,5 @@
 ---
-tittle: Reset Writeup
+title: Reset Writeup
 date: 2025-02-11 00:00:00 +0000
 categories: [Active Directory]
 tags: [AD]

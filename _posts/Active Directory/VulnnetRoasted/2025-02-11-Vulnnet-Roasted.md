@@ -1,5 +1,5 @@
 ---
-tittle: Vulnnet Roasted
+title: Vulnnet Roasted
 date: 2025-02-11 23:33:37 +0200
 categories: [Active Directory]
 tags: [AD]
