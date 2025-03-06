@@ -86,7 +86,7 @@ A **Custom URI Scheme** allows installed applications to define their own **prot
 #### **How Custom URI Schemes Registered in Windows :**
 i created a custom uri for opening the notepad just for demonstration, and it's not hard you just need to register a custom uri in the registry editor as the following
 1. Open **Registry Editor** (`regedit`).
-2. Navigate to:
+2. create a new key name it notepad and Navigate to it and add a new string named 'URL Protocol' with empty value:
     ```
     HKEY_CLASSES_ROOT\notepad
     ```
