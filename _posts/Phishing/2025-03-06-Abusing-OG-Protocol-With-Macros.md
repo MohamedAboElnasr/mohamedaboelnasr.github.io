@@ -5,8 +5,6 @@ categories:
   - phishing
 tags:
   - phishing
-media_subpath: /assets/images/og
-image: https://github.com/user-attachments/assets/1f42bf30-8772-4382-a7e6-369e565e9de4
 ---
 **Disclaimer:**
 
