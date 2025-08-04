@@ -1,8 +1,11 @@
 ---
 title: Blind Trust
 date: 2025-08-04 00:00:00 +0000
-categories: [CTF, ASC25]
-tags: [Web]
+categories:
+  - CTF
+tags:
+  - Web
+  - ASC25
 media_subpath: /assets/images/blindtrust
 ---
 
