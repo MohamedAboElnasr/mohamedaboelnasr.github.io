@@ -441,7 +441,7 @@ and finaly we got our flag
 
 ![](flag.png)
 
-and this is the full solver script from the author itself
+and this is the full solver script from the author himself
 
 ```py
 import requests
