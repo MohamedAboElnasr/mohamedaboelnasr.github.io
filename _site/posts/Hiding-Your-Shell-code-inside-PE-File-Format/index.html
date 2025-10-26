@@ -34,8 +34,8 @@
 <meta property="og:locale" content="en" />
 <meta name="description" content="Introduction In this blog post, I’ll explore how adversaries conceal their shellcode inside Portable Executable (PE) files—particularly in sections like .rsrc—to evade Endpoint Detection and Response (EDR) systems and antivirus software. By embedding malicious code within legitimate-looking executables, attackers can bypass signature-based detection mechanisms and make analysis more challenging for defenders." />
 <meta property="og:description" content="Introduction In this blog post, I’ll explore how adversaries conceal their shellcode inside Portable Executable (PE) files—particularly in sections like .rsrc—to evade Endpoint Detection and Response (EDR) systems and antivirus software. By embedding malicious code within legitimate-looking executables, attackers can bypass signature-based detection mechanisms and make analysis more challenging for defenders." />
-<link rel="canonical" href="http://localhost:4000/posts/Hiding-Your-Shell-code-inside-PE-File-Format/" />
-<meta property="og:url" content="http://localhost:4000/posts/Hiding-Your-Shell-code-inside-PE-File-Format/" />
+<link rel="canonical" href="https://mohamedaboelnasr.github.io/posts/Hiding-Your-Shell-code-inside-PE-File-Format/" />
+<meta property="og:url" content="https://mohamedaboelnasr.github.io/posts/Hiding-Your-Shell-code-inside-PE-File-Format/" />
 <meta property="og:site_name" content="Hell’s Executioner" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-02-13T01:00:00+03:00" />
@@ -43,7 +43,7 @@
 <meta property="twitter:title" content="Hiding Your Shell code inside PE File Format" />
 <meta name="twitter:site" content="@Abo_Elnasr101" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-07T13:29:48+03:00","datePublished":"2025-02-13T01:00:00+03:00","description":"Introduction In this blog post, I’ll explore how adversaries conceal their shellcode inside Portable Executable (PE) files—particularly in sections like .rsrc—to evade Endpoint Detection and Response (EDR) systems and antivirus software. By embedding malicious code within legitimate-looking executables, attackers can bypass signature-based detection mechanisms and make analysis more challenging for defenders.","headline":"Hiding Your Shell code inside PE File Format","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Hiding-Your-Shell-code-inside-PE-File-Format/"},"url":"http://localhost:4000/posts/Hiding-Your-Shell-code-inside-PE-File-Format/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-07T13:29:48+03:00","datePublished":"2025-02-13T01:00:00+03:00","description":"Introduction In this blog post, I’ll explore how adversaries conceal their shellcode inside Portable Executable (PE) files—particularly in sections like .rsrc—to evade Endpoint Detection and Response (EDR) systems and antivirus software. By embedding malicious code within legitimate-looking executables, attackers can bypass signature-based detection mechanisms and make analysis more challenging for defenders.","headline":"Hiding Your Shell code inside PE File Format","mainEntityOfPage":{"@type":"WebPage","@id":"https://mohamedaboelnasr.github.io/posts/Hiding-Your-Shell-code-inside-PE-File-Format/"},"url":"https://mohamedaboelnasr.github.io/posts/Hiding-Your-Shell-code-inside-PE-File-Format/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -1903,21 +1903,21 @@ And that’s all for now! Hope you enjoyed it, fellow hacker 😈.</p>
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Hiding%20Your%20Shell%20code%20inside%20PE%20File%20Format%20-%20Hell%E2%80%99s%20Executioner&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FHiding-Your-Shell-code-inside-PE-File-Format%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Hiding%20Your%20Shell%20code%20inside%20PE%20File%20Format%20-%20Hell%E2%80%99s%20Executioner&url=https%3A%2F%2Fmohamedaboelnasr.github.io%2Fposts%2FHiding-Your-Shell-code-inside-PE-File-Format%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Hiding%20Your%20Shell%20code%20inside%20PE%20File%20Format%20-%20Hell%E2%80%99s%20Executioner&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FHiding-Your-Shell-code-inside-PE-File-Format%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Hiding%20Your%20Shell%20code%20inside%20PE%20File%20Format%20-%20Hell%E2%80%99s%20Executioner&u=https%3A%2F%2Fmohamedaboelnasr.github.io%2Fposts%2FHiding-Your-Shell-code-inside-PE-File-Format%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FHiding-Your-Shell-code-inside-PE-File-Format%2F&text=Hiding%20Your%20Shell%20code%20inside%20PE%20File%20Format%20-%20Hell%E2%80%99s%20Executioner" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fmohamedaboelnasr.github.io%2Fposts%2FHiding-Your-Shell-code-inside-PE-File-Format%2F&text=Hiding%20Your%20Shell%20code%20inside%20PE%20File%20Format%20-%20Hell%E2%80%99s%20Executioner" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     

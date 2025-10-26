@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>https://mohamedaboelnasr.github.io/</id>
   <title>Hell’s Executioner</title>
   <subtitle>Aboelnasr’s personal blog is about exploring the world of cybersecurity, penetration testing, and hacking. Written by Mohamed Mamhoud, this blog shares technical insights, tutorials, and guides for those eager to learn about hacking, red teaming, and cutting-edge technologies.</subtitle>
-  <updated>2025-10-26T23:21:30+03:00</updated>
+  <updated>2025-10-26T23:29:26+03:00</updated>
   <author>
     <name>Aboelnasr</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>https://mohamedaboelnasr.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://mohamedaboelnasr.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="https://mohamedaboelnasr.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Aboelnasr </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Penforce CTF</title>
-    <link href="http://localhost:4000/posts/Penforce/" rel="alternate" type="text/html" title="Penforce CTF" />
+    <link href="https://mohamedaboelnasr.github.io/posts/Penforce/" rel="alternate" type="text/html" title="Penforce CTF" />
     <published>2025-09-12T03:00:00+03:00</published>
   
     <updated>2025-10-26T22:55:36+03:00</updated>
   
-    <id>http://localhost:4000/posts/Penforce/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Penforce/" />
+    <id>https://mohamedaboelnasr.github.io/posts/Penforce/</id>
+    <content type="text/html" src="https://mohamedaboelnasr.github.io/posts/Penforce/" />
     <author>
       <name>Aboelnasr</name>
     </author>
@@ -45,13 +45,13 @@
   
   <entry>
     <title>Blind Trust</title>
-    <link href="http://localhost:4000/posts/Blind-Trust/" rel="alternate" type="text/html" title="Blind Trust" />
+    <link href="https://mohamedaboelnasr.github.io/posts/Blind-Trust/" rel="alternate" type="text/html" title="Blind Trust" />
     <published>2025-08-04T03:00:00+03:00</published>
   
     <updated>2025-09-13T04:59:24+03:00</updated>
   
-    <id>http://localhost:4000/posts/Blind-Trust/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Blind-Trust/" />
+    <id>https://mohamedaboelnasr.github.io/posts/Blind-Trust/</id>
+    <content type="text/html" src="https://mohamedaboelnasr.github.io/posts/Blind-Trust/" />
     <author>
       <name>Aboelnasr</name>
     </author>
@@ -69,13 +69,13 @@
   
   <entry>
     <title>Abusing OG Protocol With Macros</title>
-    <link href="http://localhost:4000/posts/Abusing-OG-Protocol-With-Macros/" rel="alternate" type="text/html" title="Abusing OG Protocol With Macros" />
+    <link href="https://mohamedaboelnasr.github.io/posts/Abusing-OG-Protocol-With-Macros/" rel="alternate" type="text/html" title="Abusing OG Protocol With Macros" />
     <published>2025-03-06T01:00:00+03:00</published>
   
     <updated>2025-08-04T08:53:40+03:00</updated>
   
-    <id>http://localhost:4000/posts/Abusing-OG-Protocol-With-Macros/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Abusing-OG-Protocol-With-Macros/" />
+    <id>https://mohamedaboelnasr.github.io/posts/Abusing-OG-Protocol-With-Macros/</id>
+    <content type="text/html" src="https://mohamedaboelnasr.github.io/posts/Abusing-OG-Protocol-With-Macros/" />
     <author>
       <name>Aboelnasr</name>
     </author>
@@ -93,13 +93,13 @@
   
   <entry>
     <title>Hiding Your Shell code inside PE File Format</title>
-    <link href="http://localhost:4000/posts/Hiding-Your-Shell-code-inside-PE-File-Format/" rel="alternate" type="text/html" title="Hiding Your Shell code inside PE File Format" />
+    <link href="https://mohamedaboelnasr.github.io/posts/Hiding-Your-Shell-code-inside-PE-File-Format/" rel="alternate" type="text/html" title="Hiding Your Shell code inside PE File Format" />
     <published>2025-02-13T01:00:00+03:00</published>
   
     <updated>2025-03-07T13:29:48+03:00</updated>
   
-    <id>http://localhost:4000/posts/Hiding-Your-Shell-code-inside-PE-File-Format/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Hiding-Your-Shell-code-inside-PE-File-Format/" />
+    <id>https://mohamedaboelnasr.github.io/posts/Hiding-Your-Shell-code-inside-PE-File-Format/</id>
+    <content type="text/html" src="https://mohamedaboelnasr.github.io/posts/Hiding-Your-Shell-code-inside-PE-File-Format/" />
     <author>
       <name>Aboelnasr</name>
     </author>
@@ -117,13 +117,13 @@
   
   <entry>
     <title>Vulnnet Roasted</title>
-    <link href="http://localhost:4000/posts/Vulnnet-Roasted/" rel="alternate" type="text/html" title="Vulnnet Roasted" />
+    <link href="https://mohamedaboelnasr.github.io/posts/Vulnnet-Roasted/" rel="alternate" type="text/html" title="Vulnnet Roasted" />
     <published>2025-02-12T00:33:37+03:00</published>
   
     <updated>2025-03-07T01:11:43+03:00</updated>
   
-    <id>http://localhost:4000/posts/Vulnnet-Roasted/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Vulnnet-Roasted/" />
+    <id>https://mohamedaboelnasr.github.io/posts/Vulnnet-Roasted/</id>
+    <content type="text/html" src="https://mohamedaboelnasr.github.io/posts/Vulnnet-Roasted/" />
     <author>
       <name>Aboelnasr</name>
     </author>
