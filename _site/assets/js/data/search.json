@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Penforce CTF",
+    "url": "/posts/Penforce/",
+    "categories": "CTF",
+    "tags": "Web, Penforce",
+    "date": "2025-09-12 03:00:00 +0300",
+    "content": "In this post, I’m going to share four challenges I created for the Penforce Internship CTF Competition. The goal of these challenges was to give participants hands-on experience with different secu..."
+  },
+  {
+    "title": "Blind Trust",
+    "url": "/posts/Blind-Trust/",
+    "categories": "CTF",
+    "tags": "Web, ASC25",
+    "date": "2025-08-04 03:00:00 +0300",
+    "content": "Blind Trust  Hello everyone, It’s been a while since I published a write-up. In this one, I’m going to show you how I managed to solve a web challenge that had zero solves during Arab War Games CTF..."
+  },
+  {
+    "title": "Abusing OG Protocol With Macros",
+    "url": "/posts/Abusing-OG-Protocol-With-Macros/",
+    "categories": "phishing",
+    "tags": "phishing",
+    "date": "2025-03-06 01:00:00 +0300",
+    "content": "Disclaimer:  This post is for educational and informational purposes only. It is intended to raise awareness about how certain technologies work and should not be used for any malicious or unethica..."
+  },
+  {
+    "title": "Hiding Your Shell code inside PE File Format",
+    "url": "/posts/Hiding-Your-Shell-code-inside-PE-File-Format/",
+    "categories": "maldev",
+    "tags": "maldev, wininternals",
+    "date": "2025-02-13 01:00:00 +0300",
+    "content": "Introduction In this blog post, I’ll explore how adversaries conceal their shellcode inside Portable Executable (PE) files—particularly in sections like .rsrc—to evade Endpoint Detection and Respon..."
+  },
+  {
+    "title": "Vulnnet Roasted",
+    "url": "/posts/Vulnnet-Roasted/",
+    "categories": "Active Directory",
+    "tags": "AD",
+    "date": "2025-02-12 00:33:37 +0300",
+    "content": "Introduction I would like to write a write-up about a machine I solved on TryHackMe called Vulnnet:Roasted, which is an Active Directory machine. My focus will not be on how I solved the machine, b..."
+  },
+  {
+    "title": "Reset Writeup",
+    "url": "/posts/Reset-Writeup/",
+    "categories": "Active Directory",
+    "tags": "AD",
+    "date": "2025-02-11 03:00:00 +0300",
+    "content": "بسم الله الرحمن الرحيم  It’s been a long time since I posted any write-ups here. In this post, I would like to share with you a machine I solved on TryHackMe related to Active Directory called “Res..."
+  }
+  
+]
+

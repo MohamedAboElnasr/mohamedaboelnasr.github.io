@@ -6,9 +6,9 @@ Gemfile.lock
 # Jekyll cache
 .jekyll-cache
 .jekyll-metadata
-_site
-_posts/.obsidian
-*.gem
+
+# Build output (GitHub Actions will deploy this automatically)
+#_site
 
 # NPM dependencies
 node_modules
