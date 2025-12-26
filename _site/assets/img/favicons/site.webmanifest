@@ -1,21 +1,23 @@
+
+
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Hell’s Executioner",
+  "short_name": "Hell’s Executioner",
+  "description": "Aboelnasr’s personal blog is about exploring the world of cybersecurity, penetration testing, and hacking. Written by Mohamed Mamhoud, this blog shares technical insights, tutorials, and guides for those eager to learn about hacking, red teaming, and cutting-edge technologies.",
   "icons": [
     {
-      "src": "/web-app-manifest-192x192.png",
+      "src": "/assets/img/favicons/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
+      "type": "image/png"
     },
     {
-      "src": "/web-app-manifest-512x512.png",
+      "src": "/assets/img/favicons/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ],
-  "theme_color": "#ffffff",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "theme_color": "#2a1e6b",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "fullscreen"
 }
+
