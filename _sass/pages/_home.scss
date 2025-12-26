@@ -4,100 +4,101 @@
 
 #post-list {
   margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; // Reduced gap
 
   @include bp.lg {
     margin-top: 2.5rem;
   }
 
   .card-wrapper {
-    &:hover {
-      text-decoration: none;
-    }
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 0.75rem; // Slightly less rounded
+    
+    // Glassmorphism Card Style - Subtle
+    background: rgba(30, 30, 35, 0.4); // More transparent/subtle
+    border: 1px solid var(--card-border-color);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    overflow: hidden;
 
-    &:not(:last-child) {
-      margin-bottom: 1.25rem;
+    &:hover {
+      transform: translateY(-3px); // Subtle lift
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+      border-color: var(--link-color);
+      background: rgba(30, 30, 35, 0.6); // Slightly clearer on hover
     }
   }
 
   .card {
     border: 0;
     background: none;
+    margin-bottom: 0;
 
-    %img-radius {
-      border-radius: v.$radius-lg v.$radius-lg 0 0;
-
-      @include bp.md {
-        border-radius: 0 v.$radius-lg v.$radius-lg 0;
+    .preview-img {
+      border-radius: 0;
+      overflow: hidden;
+      height: 100%; // Ensure it fills the col height
+      min-height: 200px; // Ensure visibility
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1);
+        transition: transform 0.5s ease;
       }
     }
 
-    .preview-img {
-      @extend %img-radius;
-
-      img {
-        @extend %img-radius;
-      }
+    // Zoom image on hover
+    &:hover .preview-img img {
+      transform: scale(1.03);
     }
 
     .card-body {
-      height: 100%;
-      padding: 1rem;
-
-      @include bp.md {
-        padding: 1.75rem 1.75rem 1.25rem;
-      }
-
+      padding: 1.25rem; // Reduced padding
+      display: flex;
+      flex-direction: column;
+      justify-content: center; // Vertically center content
+      
       .card-title {
-        @extend %text-clip;
-
         color: var(--heading-color) !important;
-        font-size: 1.25rem;
+        font-size: 1.4rem; // Slightly larger for impact
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800; // Extra bold
+        letter-spacing: -0.5px;
+        margin-bottom: 0.75rem;
+        line-height: 1.2;
+        transition: all 0.3s ease;
+        
+        // Cool Text Effect
+        background: linear-gradient(to right, var(--title-gradient-start), var(--title-gradient-end));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 0 20px var(--title-shadow);
       }
 
-      %muted {
-        color: var(--text-muted-color) !important;
-      }
-
-      .card-text {
-        @include bp.md {
-          display: inherit !important;
-        }
-
-        &.content {
-          @extend %muted;
-
-          p {
-            @extend %text-clip;
-
-            line-height: 1.5;
-            margin: 0;
-          }
-        }
+      .card-text p {
+        color: var(--text-muted-color);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1.25rem;
       }
 
       .post-meta {
-        @extend %muted;
-
-        i {
+        margin-top: auto;
+        font-size: 0.85rem;
+        opacity: 0.9;
+        
+        i { 
+          color: var(--link-color); 
+          
+          // Fix spacing between icons
           &:not(:first-child) {
-            margin-left: 1.5rem;
-
-            @include bp.md {
-              margin-left: 1.75rem;
-            }
+            margin-left: 1.5rem; // Add breathing room
           }
-        }
-
-        em {
-          @extend %normal-font-style;
-
-          color: inherit;
-        }
-
-        > div:first-child {
-          display: block;
-
-          @extend %text-ellipsis;
         }
       }
     }

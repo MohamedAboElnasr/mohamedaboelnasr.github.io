@@ -5,12 +5,26 @@
 
 #topbar-wrapper {
   height: v.$topbar-height;
-  background-color: var(--topbar-bg);
+  background-color: transparent; // Make base transparent for glass effect
+  position: sticky;
+  top: 1rem; // Floating offset
+  z-index: 999;
+  
+  // Floating Glass Style
+  margin: 0 1rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: var(--glass-bg); // Use variable
+  border: 1px solid var(--glass-border); // Use variable
+  box-shadow: 0 4px 20px var(--glass-shadow); // Use variable
+  transition: all 0.3s ease;
 
   @include bp.lt(bp.get(lg)) {
     @include mx.slide(top 0.2s ease);
-
     left: 0;
+    margin: 0; // Full width on mobile
+    border-radius: 0;
   }
 }
 

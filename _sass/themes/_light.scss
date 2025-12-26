@@ -4,6 +4,16 @@
   --mask-bg: #c1c3c5;
   --main-border-color: #f3f3f3;
 
+  /* Light Mode Variables */
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(0, 0, 0, 0.05);
+  --glass-shadow: rgba(0, 0, 0, 0.1);
+  
+  --title-gradient-start: #333333;
+  --title-gradient-end: #6200ea; /* Keep purple but darker/visible */
+  --title-shadow: rgba(98, 0, 234, 0.1);
+  --heading-color: #333; // Ensure heading is dark
+
   /* Common color */
   --text-color: #34343c;
   --text-muted-color: #757575;
