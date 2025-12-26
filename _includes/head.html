@@ -77,6 +77,9 @@
   <link rel="stylesheet" href="{{ '/assets/css/:THEME.css' | replace: ':THEME', site.theme | relative_url }}">
 
   <!-- Web Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.data.origin[type].webfonts | relative_url }}">
 
   <!-- Font Awesome Icons -->
@@ -100,6 +103,7 @@
   <!-- Scripts -->
 
   <script src="{{ '/assets/js/dist/theme.min.js' | relative_url }}"></script>
+  {% include custom-scripts.html %}
 
   {% include js-selector.html lang=lang %}
 
