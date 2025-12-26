@@ -74,7 +74,7 @@
   {% endunless %}
 
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ '/assets/css/:THEME.css' | replace: ':THEME', site.theme | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/:THEME.css' | replace: ':THEME', site.theme | relative_url }}?v={{ 'now' | date: '%s' }}">
 
   <!-- Web Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
